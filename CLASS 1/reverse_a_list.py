@@ -3,6 +3,5 @@ for i in range(len(li)):
     a=li[len(li)-1-i]
     li[i]=a
 
-# i am commit no 5
-# there is many things in commit 5
+# i am commit no 1
 print(li)
