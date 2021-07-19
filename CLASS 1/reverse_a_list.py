@@ -4,3 +4,4 @@ for i in range(len(li)):
     li[i]=a
 
 # i am commit no 1
+print(li)
