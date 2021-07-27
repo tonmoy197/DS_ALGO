@@ -3,6 +3,7 @@ class Solution:
         pass
 
 
+    # METHOD 1
     # def doublefor1(self,nums, target):
     #     for i in range(int(len(nums)/2)):
     #         for j in range(len(nums)):
@@ -17,6 +18,8 @@ class Solution:
     #         tmp_nums = nums[k:] #creates a list of 1:last
     #         if j in tmp_nums:
     #             return [k - 1, tmp_nums.index(j) + k]
+    
+    #METHOD 2
     def doublefor(self, nums, target):
         import copy
         sort_nums = copy.deepcopy(nums)
