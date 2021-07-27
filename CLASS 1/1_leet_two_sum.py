@@ -4,12 +4,14 @@ class Solution:
 
 
     # METHOD 1
-    # def doublefor1(self,nums, target):
+    # def doublefor(self,nums, target):
     #     for i in range(int(len(nums)/2)):
     #         for j in range(len(nums)):
     #             if nums[i]+nums[j] == target :
     #                 print([i,j])
 
+
+    #METHOD -2
     # def doublefor(self, nums, target):
     #     k = 0
     #     for element in nums:
@@ -19,7 +21,7 @@ class Solution:
     #         if j in tmp_nums:
     #             return [k - 1, tmp_nums.index(j) + k]
     
-    #METHOD 2
+    #METHOD 3
     def doublefor(self, nums, target):
         import copy
         sort_nums = copy.deepcopy(nums)
